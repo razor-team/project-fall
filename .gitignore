@@ -1,0 +1,9 @@
+# IDEs
+.vscode/
+.idea/
+
+# Extensions
+.history/
+
+# Go
+vendor/
