@@ -7,3 +7,6 @@
 
 # Go
 vendor/
+
+# ENV
+**/.env

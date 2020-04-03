@@ -9,3 +9,7 @@ services:
       dockerfile: Dockerfile
     volumes: 
       - ${srcDir}:${targetDir}:ro
+    env_file: .env
+networks: 
+  projcet_fall:
+    driver: "bridge"
