@@ -1,0 +1,11 @@
+version: '3.7'
+
+services: 
+  vulkan:
+    image: vulkan
+    container_name: vulkan
+    build:
+      context: vulkan
+      dockerfile: Dockerfile
+    volumes: 
+      - ${srcDir}:${targetDir}:ro
